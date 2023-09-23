@@ -1,0 +1,20 @@
+///this will get all the results
+get http://localhost:3000/contacts
+####
+//this will get specific results
+Get http://localhost:3000/contacts/650e5a0bbd89409eb8c57fbb
+###
+get http://localhost:3000/contacts/650e5a45bd89409eb8c621c0
+###
+get http://localhost:3000/contacts/650e5a6ebd89409eb8c68940
+//production
+###
+//all results
+GET https://cse341-fall23-lhz5.onrender.com/contacts
+###
+//individual results
+https://cse341-fall23-lhz5.onrender.com/contacts/650e5a0bbd89409eb8c57fbb
+###
+https://cse341-fall23-lhz5.onrender.com/contacts/650e5a45bd89409eb8c621c0
+###
+https://cse341-fall23-lhz5.onrender.com/contacts/650e5a6ebd89409eb8c68940
