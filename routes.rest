@@ -37,3 +37,25 @@ content-type:application/json
 
 ###Delete Contact
 DELETE http://localhost:3000/contacts/65188ee76730a097f7cdbdba HTTP/1.1
+
+###Live render testing
+
+POST https://cse341-fall23-lhz5.onrender.com/contacts/ HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Ayame", "lastName":"Happier", "email":"haru@test.com", "favoriteColor":"purple", "birthday":"8/25"
+}
+
+###Update contact render
+
+PUT https://cse341-fall23-wk2.onrender.com/contacts/<ID> HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Ayame", "lastName":"Happier", "email":"haru@test.com", "favoriteColor":"purple", "birthday":"8/25"
+}
+
+###Delete contact
+
+DELETE https://cse341-fall23-lhz5.onrender.com/contacts/<ID> HTTP/1.1
