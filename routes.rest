@@ -2,7 +2,7 @@
 get http://localhost:3000/contacts
 ####
 //this will get specific results
-Get http://localhost:3000/contacts/650e5a0bbd89409eb8c57fbb
+Get http://localhost:3000/contacts/6518a3e1af9d24560c599d9d
 ###
 get http://localhost:3000/contacts/650e5a45bd89409eb8c621c0
 ###
@@ -38,7 +38,7 @@ content-type:application/json
 ###Delete Contact
 DELETE http://localhost:3000/contacts/65188ee76730a097f7cdbdba HTTP/1.1
 
-###Live render testing
+###Live render testing, create request
 
 POST https://cse341-fall23-lhz5.onrender.com/contacts/ HTTP/1.1
 content-type: application/json
@@ -48,14 +48,17 @@ content-type: application/json
 }
 
 ###Update contact render
-
-PUT https://cse341-fall23-wk2.onrender.com/contacts/<ID> HTTP/1.1
+PUT https://cse341-fall23-lhz5.onrender.com/contacts/6518a49baf9d24560c599da0 HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"Ayame", "lastName":"Happier", "email":"haru@test.com", "favoriteColor":"purple", "birthday":"8/25"
+    "firstName":"Sakura",
+    "lastName":"Happier", 
+    "email":"sakura@test.com", 
+    "favoriteColor":"pink", 
+    "birthday":"7/2"
 }
 
 ###Delete contact
 
-DELETE https://cse341-fall23-lhz5.onrender.com/contacts/<ID> HTTP/1.1
+DELETE https://cse341-fall23-lhz5.onrender.com/contacts/6518a412af9d24560c599d9e HTTP/1.1
