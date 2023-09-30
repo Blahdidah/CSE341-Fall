@@ -10,7 +10,7 @@ get http://localhost:3000/contacts/650e5a6ebd89409eb8c68940
 //production
 ###
 //all results
-GET https://cse341-fall23-wk2.onrender.com/contacts
+https://cse341-fall23-wk2.onrender.com/contacts
 ###
 //individual results
 https://cse341-fall23-wk2.onrender.com/contacts/650e5a0bbd89409eb8c57fbb
@@ -18,3 +18,22 @@ https://cse341-fall23-wk2.onrender.com/contacts/650e5a0bbd89409eb8c57fbb
 https://cse341-fall23-wk2.onrender.com/contacts/650e5a45bd89409eb8c621c0
 ###
 https://cse341-fall23-wk2.onrender.com/contacts/650e5a6ebd89409eb8c68940
+//week3!
+###create contact 
+POST http://localhost:3000/contacts/ HTTP/1.1 
+content-type:application/json
+
+{
+    "firstName":"Ayame", "lastName":"Happier", "email":"haru@test.com", "favoriteColor":"purple", "birthday":"8/25"
+}
+
+###Put Contact
+PUT http://localhost:3000/contacts/65188ee76730a097f7cdbdba HTTP/1.1
+content-type:application/json
+
+{
+    "firstName":"Sakura", "lastName":"Happier", "email":"sakura@test.com", "favoriteColor":"pink", "birthday":"7/2"
+}
+
+###Delete Contact
+DELETE http://localhost:3000/contacts/65188ee76730a097f7cdbdba HTTP/1.1
