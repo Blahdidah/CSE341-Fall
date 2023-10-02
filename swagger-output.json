@@ -5,10 +5,10 @@
     "description": "Collects and displays contact information",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "cse341-fall23-lhz5.onrender.com/",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/api-docs": {
