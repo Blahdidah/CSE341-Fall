@@ -5,10 +5,11 @@
     "description": "Collects and displays contact information",
     "version": "1.0.0"
   },
-  "host": "https://cse341-fall23-lhz5.onrender.com/",
+  "host": "cse341-fall23-lhz5.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "http",
+    "https"
   ],
   "paths": {
     "/": {
