@@ -5,14 +5,23 @@
     "description": "Collects and displays contact information",
     "version": "1.0.0"
   },
-  "host": "cse341-fall23-lhz5.onrender.com",
+  "host": "localhost:3000",
   "basePath": "/",
   "schemes": [
-    "http",
-    "https"
+    "http"
   ],
   "paths": {
-    "/": {
+    "/api-docs": {
+      "get": {
+        "description": "",
+        "responses": {
+          "default": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/contacts/": {
       "get": {
         "description": "",
         "produces": [
@@ -62,7 +71,7 @@
         }
       }
     },
-    "/{id}": {
+    "/contacts/{id}": {
       "get": {
         "description": "",
         "produces": [
