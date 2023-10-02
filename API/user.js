@@ -14,13 +14,5 @@ route.post('/', async(req,res)=>{
     res.json(userModel);
 })
 
-//this might be junk//
-route.post('/newContact', async(req,res)=>{
-    //create new entry
-    const newContact = req.body;
-    console.log(newContact);
-
-    res.send('Contact has been added')
-})
 
 module.exports = route;

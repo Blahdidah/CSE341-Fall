@@ -1,0 +1,42 @@
+{
+    "contact":{
+    "_id": "650e5a0bbd89409eb8c57fbb",
+    "firstName": "Mandy",
+    "lastName": "Draper",
+    "email": "Mandinkus@gmail.com",
+    "favoriteColor": "purple",
+    "birthday": "4/8"
+},
+"contact2":{
+    "_id": "650e5a45bd89409eb8c621c0",
+    "firstName": "Erika",
+    "lastName": "Nelson",
+    "email": "erikaface@gmail.com",
+    "favoriteColor": "orange",
+    "birthday": "3/13"
+},
+"contact3":{
+    "_id": "650e5a6ebd89409eb8c68940",
+    "firstName": "Stacey",
+    "lastName": "Fugal",
+    "email": "slylynn@gmail.com",
+    "favoriteColor": "blue",
+    "birthday": "2/14"
+},
+"contact4":{
+    "_id": "6518a3e1af9d24560c599d9d",
+    "firstName": "Ayame",
+    "lastName": "Happier",
+    "email": "haru@test.com",
+    "favoriteColor": "purple",
+    "birthday": "8/25"
+},
+"contact5":{
+    "_id": "6518a49baf9d24560c599da0",
+    "firstName": "Sakura",
+    "lastName": "Happier",
+    "email": "sakura@test.com",
+    "favoriteColor": "pink",
+    "birthday": "7/2"
+}
+}

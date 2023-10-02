@@ -44,21 +44,21 @@ POST https://cse341-fall23-lhz5.onrender.com/contacts/ HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"Ayame", "lastName":"Happier", "email":"haru@test.com", "favoriteColor":"purple", "birthday":"8/25"
+    "firstName":"Rei", "lastName":"Happier", "email":"Kitkat@test.com", "favoriteColor":"teal", "birthday":"5/10"
 }
 
 ###Update contact render
-PUT https://cse341-fall23-lhz5.onrender.com/contacts/6518a49baf9d24560c599da0 HTTP/1.1
+PUT https://cse341-fall23-lhz5.onrender.com/contacts/6518ab93af9d24560c599da1 HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"Sakura",
+    "firstName":"Scott",
     "lastName":"Happier", 
-    "email":"sakura@test.com", 
-    "favoriteColor":"pink", 
-    "birthday":"7/2"
+    "email":"yoshi@test.com", 
+    "favoriteColor":"red", 
+    "birthday":"6/30"
 }
 
 ###Delete contact
 
-DELETE https://cse341-fall23-lhz5.onrender.com/contacts/6518a412af9d24560c599d9e HTTP/1.1
+DELETE https://cse341-fall23-lhz5.onrender.com/contacts/6518ab93af9d24560c599da1 HTTP/1.1
